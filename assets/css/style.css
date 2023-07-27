@@ -3,3 +3,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+/* utilitis */
+
+#main_wrapper {
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar_sm {
+    background-color: black;
+    float: left;
+    width: 65px;
+    height: 100%;
+}
+
+.sidebar {
+    background-color: black;
+    float: left;
+    width: 150px;
+    height: 100%;
+}
