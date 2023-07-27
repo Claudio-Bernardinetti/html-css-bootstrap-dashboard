@@ -13,7 +13,12 @@ body {
     clear: both;
     display: table;
   }
-/* utilitis */
+/* utilitis end */
+
+.navbar {
+    height: 75px ;
+}
+/* header */
 
 #main_wrapper {
     background-color: aqua;
@@ -28,9 +33,12 @@ body {
     height: 100%;
 }
 
-.sidebar {
-    background-color: black;
-    float: left;
-    width: 150px;
-    height: 100%;
+
+@media screen and (min-width: 991px) {
+    .sidebar {
+        background-color: rgb(159, 37, 37);
+        float: left;
+        width: 150px;
+        height: 100%;
+    }
 }

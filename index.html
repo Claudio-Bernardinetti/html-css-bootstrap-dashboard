@@ -6,6 +6,11 @@
 
         <title> Bootstrap Dashboard</title>
         <!-- Title -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Font awesome -->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -20,7 +25,10 @@
             <nav class="navbar sticky-top bg-body-tertiary">
                 <div class="container-fluid">
 
-                    <a class="navbar-brand" href="#"><img
+                    <a class="logo_small d-block d-lg-none"
+                        href="#"><img src="./assets/img/mobile-logo.png"
+                            width="45px" alt></a>
+                    <a class="logo d-none d-lg-block" href="#"><img
                             src="./assets/img/logo.svg" alt>
                     </a>
                     <form class="d-flex" role="search">
@@ -34,23 +42,14 @@
         <!-- header -->
         <div id="main_wrapper">
 
-            <div class="container-sm sidebar_sm clearfix">
+            <div class="container-sm sidebar_sm sidebar clearfix">
                 <div class="row">
                     <div class="sidebar_top">
+                        <a href="#">
+                            <i class="fas fa-home"></i>
 
-                    </div>
-                    <div class="sidebar_bottom">
-
-                    </div>
-                </div>
-
-            </div>
-            <!-- Sidebar 65px -->
-            <div class="container-md sidebar_sm clearfix">
-                <div class="row">
-
-                    <div class="sidebar_top">
-
+                            <span class="d-none d-lg-block">Home</span>
+                        </a>
                     </div>
                     <div class="sidebar_bottom">
 
@@ -59,7 +58,6 @@
 
             </div>
 
-            <!-- Sidebar 150px -->
             <div class="main clearfix">
                 ciao
             </div>
