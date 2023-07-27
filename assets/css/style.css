@@ -4,41 +4,87 @@
     box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
-}
-
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+  }
+
+  body {
+    height: 700px;
   }
 /* utilitis end */
 
 .navbar {
     height: 75px ;
 }
+
+.navbar_row {
+    height: 75px;
+}
 /* header */
 
 #main_wrapper {
     background-color: aqua;
     height: 100%;
-    width: 100%;
 }
 
+/* Layout end */
 .sidebar_sm {
     background-color: black;
     float: left;
+    display: inline;
     width: 65px;
     height: 100%;
 }
 
+ .sidebar_sm .row {
+    display: flex;
+    align-content: space-between;
+    height: 100%;
+}
+
+.sidebar_sm span {
+    float: right;
+    padding-left: 0.5rem;
+}
+/* Sidebar end */
+
+.container_main {
+    height: 100%;
+    overflow-wrap: auto;
+}
+
+.card_classi {
+    background-color:  blueviolet;
+    height: 520px;
+}
+
+.card_todo {
+    background-color: rgb(226, 43, 73);
+    height: 210px;
+}
+
+.card_faq {
+    background-color: rgb(98, 226, 43);
+    height: 250px;
+}
+
+.card_utenti {
+    background-color: rgb(43, 101, 226);
+    height: 660px;
+}
+
+/* Main end */
 
 @media screen and (min-width: 991px) {
+
     .sidebar {
         background-color: rgb(159, 37, 37);
         float: left;
         width: 150px;
         height: 100%;
     }
+    /* Sidebae end */
+    
 }
