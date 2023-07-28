@@ -176,14 +176,24 @@
 }
 
 .card_classi {
-    background-color:  rgb(43, 226, 153);
+   
     height: 520px;
 }
 
 /* Main end */
 /* card classi start */
-.th_hidden{
-    display: none;
+.card_classi_haeder {
+    background-color: aliceblue;
+}
+
+.card_classi button {
+    background-color: white;
+    border: 1px solid lightgray;
+    
+}
+
+.card_classi i {
+    color: gray;
 }
 /* card classi end */
 /* card f.a.q. start */
@@ -191,9 +201,8 @@
     background-color: aliceblue;
 }
 /* card f.a.q. end */
+
 /* card todo start */
-
-
 .card_todo_header {
     background-color: aliceblue;
 }
@@ -237,6 +246,11 @@
         float: left;
         width: 150px;
         height: 100%;
+    }
+
+    .cb_hover:hover {
+        background-color: lightgray;
+        padding: 0rem 1rem;
     }
 
     .ul_sidebar_top, .ul_sidebar_bottom {
