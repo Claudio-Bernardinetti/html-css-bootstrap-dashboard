@@ -156,7 +156,13 @@
     background-color: rgb(92, 136, 232);
     border: 1px solid white;
 }
+/* Banner blue */
 
+.check_box {
+    padding: 1rem;
+    margin-left: 1rem;
+}
+/* offcanvas end */
 /* Banner blue end */
 
 .container_main {
