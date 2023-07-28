@@ -239,7 +239,12 @@
         height: 100%;
     }
 
-    .cb_hover:hover {
+    .ul_sidebar_top a:hover {
+        background-color: lightgray;
+        padding: 0rem 1rem;
+    }
+
+    .ul_sidebar_bottom a:hover {
         background-color: lightgray;
         padding: 0rem 1rem;
     }
