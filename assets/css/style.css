@@ -95,6 +95,7 @@
 
 /* Sidebar end */
 
+/* Banner blue start */
 .banner_blue {
     background-color: rgb(92, 136, 232);
 }
@@ -160,7 +161,7 @@
     background-color: rgb(92, 136, 232);
     border: 1px solid white;
 }
-/* Banner blue */
+
 
 .check_box {
     padding: 1rem;
@@ -179,8 +180,8 @@
    
     height: 520px;
 }
-
 /* Main end */
+
 /* card classi start */
 .card_classi_haeder {
     background-color: aliceblue;
@@ -220,18 +221,7 @@
 }
 
 /* card todo end */
-
-
-
-@media screen and (min-width:767px) {
-
-    .th_hidden {
-        display: block;
-    }
     
-} 
-    
-
 
 @media screen and (min-width: 991px) {
 
