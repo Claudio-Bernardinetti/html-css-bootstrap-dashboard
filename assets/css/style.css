@@ -49,7 +49,7 @@
 
 #main_wrapper {
     background-color: aqua;
-    height: 100%;
+    height: calc(100vh - 75px)
 }
 
 /* Layout end */
@@ -167,7 +167,7 @@
 
 .container_main {
     height: 100%;
-    overflow-wrap: auto;
+    overflow-y:auto
 }
 
 .card_classi {
