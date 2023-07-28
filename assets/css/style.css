@@ -131,6 +131,10 @@
     display: flex;
 }
 
+.boolean_hidden_sm {
+    display: none;
+}
+
 .studenti_online {
     display: flex;
     flex-direction: column;
@@ -139,8 +143,20 @@
 }
 
 .studenti_online > p {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
+
+.nuovo_studente {
+    color: white;
+    font-size: 0.7rem;
+    padding-top: 1rem;
+}
+
+.nuovo_studente  button {
+    background-color: rgb(92, 136, 232);
+    border: 1px solid white;
+}
+
 /* Banner blue end */
 
 .container_main {
@@ -193,5 +209,22 @@
         padding-left: 0;
     }
     /* Sidebae end */
+
+    .nuovo_studente {
+        color: white;
+        font-size: 0.7rem;
+        padding-top: 1rem;
+        padding-left: 10rem;
+    }
+
+    .boolean_hidden_bg {
+        display: none;
+    }
+
+    .boolean_hidden_sm {
+        display: block;
+    }
+    /* Banner blue end */
+    
     
 }
