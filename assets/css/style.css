@@ -13,6 +13,10 @@
   body {
     height: 700px;
   }
+
+  .nav {
+    justify-content: space-between;
+  }
 /* utilitis end */
 
 .navbar {
@@ -22,7 +26,26 @@
 .navbar_row {
     height: 75px;
 }
-/* header */
+
+.icon a {
+    text-decoration: none;
+}
+
+.icon button {
+    background-color: white;
+    border: 0px;
+}
+
+.icon_hid i {
+    display: none;
+}
+
+.icon_bell i {
+    color: orange;
+    padding-top: 0.6rem;
+}
+
+/* header nav end */
 
 #main_wrapper {
     background-color: aqua;
@@ -44,11 +67,81 @@
     height: 100%;
 }
 
-.sidebar_sm span {
-    float: right;
-    padding-left: 0.5rem;
+.sidebar_sm li {
+    padding-top: 1rem;
 }
+
+.sidebar_sm  span {
+    float: right;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.sidebar_sm i {
+    color: white;
+}
+
+.ul_sidebar_top, .ul_sidebar_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+}
+
 /* Sidebar end */
+
+.banner_blue {
+    background-color: rgb(92, 136, 232);
+}
+
+.boolean {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-start;
+    color: white;
+}
+
+.boolean p {
+   text-align: start;
+   font-size: 0.5rem;
+   background-color: blue;
+   border-radius: 15px;
+   margin-left: 0.4rem;
+   padding: .2rem .4rem;
+}
+
+.boolean span {
+    margin-top: -0.3rem;
+    padding-left: .2rem;
+    
+}
+
+.banner_blue ul {
+    list-style: none;
+}
+
+.boolean_top {
+    display: flex;
+    align-items: baseline;
+}
+
+.boolean_bottom {
+    display: flex;
+}
+
+.studenti_online {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+
+.studenti_online > p {
+    font-size: 0.5rem;
+}
+/* Banner blue end */
 
 .container_main {
     height: 100%;
@@ -79,11 +172,25 @@
 
 @media screen and (min-width: 991px) {
 
-    .sidebar {
+    .icon_hid i {
+        color: grey;
+        display: block;
+        padding: 0.5rem;
+    }
+    /* Navbar end */
+    .sidebar_sm {
         background-color: rgb(159, 37, 37);
         float: left;
         width: 150px;
         height: 100%;
+    }
+
+    .ul_sidebar_top, .ul_sidebar_bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        list-style: none;
+        padding-left: 0;
     }
     /* Sidebae end */
     
