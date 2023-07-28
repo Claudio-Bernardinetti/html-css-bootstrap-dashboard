@@ -48,7 +48,7 @@
 /* header nav end */
 
 #main_wrapper {
-    background-color: aqua;
+    
     height: calc(100vh - 75px)
 }
 
@@ -167,7 +167,8 @@
 
 .container_main {
     height: 100%;
-    overflow-y:auto
+    overflow-y: auto;
+   
 }
 
 .card_classi {
@@ -175,10 +176,6 @@
     height: 520px;
 }
 
-.card_todo {
-    background-color: rgb(226, 43, 73);
-    height: 210px;
-}
 
 .card_faq {
     background-color: rgb(98, 226, 43);
@@ -191,6 +188,42 @@
 }
 
 /* Main end */
+/* card classi start */
+.th_hidden{
+    display: none;
+}
+/* card classi end */
+/* card todo start */
+
+
+.card_todo_header {
+    background-color: antiquewhite;
+}
+
+.card_todo_container {
+    margin: 0.5rem;
+    border: 1px solid lightgrey ;
+    border-radius: 5px;
+}
+
+.todo_second {
+    border-top: 1px solid lightgrey ;
+    border-bottom: 1px solid lightgrey ;
+    gap: 1rem;
+}
+
+/* card todo end */
+
+
+@media screen and (min-width:767px) {
+
+    .th_hidden {
+        display: block;
+    }
+    
+} 
+    
+
 
 @media screen and (min-width: 991px) {
 
