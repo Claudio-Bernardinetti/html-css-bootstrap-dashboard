@@ -54,7 +54,7 @@
 
 /* Layout end */
 .sidebar_sm {
-    background-color: black;
+    background-color: blue;
     float: left;
     display: inline;
     width: 65px;
@@ -182,10 +182,7 @@
     height: 250px;
 }
 
-.card_utenti {
-    background-color: rgb(43, 101, 226);
-    height: 660px;
-}
+
 
 /* Main end */
 /* card classi start */
@@ -234,7 +231,7 @@
     }
     /* Navbar end */
     .sidebar_sm {
-        background-color: rgb(159, 37, 37);
+        background-color: blue;
         float: left;
         width: 150px;
         height: 100%;
