@@ -54,11 +54,15 @@
 
 /* Layout end */
 .sidebar_sm {
-    background-color: blue;
+    background-image: url(../img/sidebar-bg.png);
     float: left;
     display: inline;
     width: 65px;
     height: 100%;
+}
+
+.sidebar_sm {
+    background-color: rgb(33, 33, 69);
 }
 
  .sidebar_sm .row {
@@ -172,14 +176,9 @@
 }
 
 .card_classi {
-    background-color:  blueviolet;
+    background-color:  rgb(43, 226, 153);
     height: 520px;
 }
-
-
-
-
-
 
 /* Main end */
 /* card classi start */
@@ -187,11 +186,16 @@
     display: none;
 }
 /* card classi end */
+/* card f.a.q. start */
+.card_faq_header {
+    background-color: aliceblue;
+}
+/* card f.a.q. end */
 /* card todo start */
 
 
 .card_todo_header {
-    background-color: antiquewhite;
+    background-color: aliceblue;
 }
 
 .card_todo_container {
@@ -207,6 +211,7 @@
 }
 
 /* card todo end */
+
 
 
 @media screen and (min-width:767px) {
@@ -228,7 +233,7 @@
     }
     /* Navbar end */
     .sidebar_sm {
-        background-color: blue;
+        background-color: rgb(33, 33, 69);
         float: left;
         width: 150px;
         height: 100%;
