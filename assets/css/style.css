@@ -10,12 +10,9 @@
     display: table;
   }
 
-  body {
-    height: 700px;
-  }
-
-  .nav {
+.nav {
     justify-content: space-between;
+    align-items: flex-start;
   }
 /* utilitis end */
 
@@ -44,11 +41,9 @@
     color: orange;
     padding-top: 0.6rem;
 }
-
 /* header nav end */
 
 #main_wrapper {
-    
     height: calc(100vh - 75px)
 }
 
@@ -92,7 +87,6 @@
     list-style: none;
     padding-left: 0;
 }
-
 /* Sidebar end */
 
 /* Banner blue start */
@@ -120,7 +114,6 @@
 .boolean span {
     margin-top: -0.3rem;
     padding-left: .2rem;
-    
 }
 
 .banner_blue ul {
@@ -162,23 +155,16 @@
     border: 1px solid white;
 }
 
-
 .check_box {
     padding: 1rem;
     margin-left: 1rem;
 }
 /* offcanvas end */
-/* Banner blue end */
 
+/* Banner blue end */
 .container_main {
     height: 100%;
     overflow-y: auto;
-   
-}
-
-.card_classi {
-   
-    height: 520px;
 }
 /* Main end */
 
@@ -190,13 +176,17 @@
 .card_classi button {
     background-color: white;
     border: 1px solid lightgray;
-    
 }
 
 .card_classi i {
     color: gray;
 }
+
+.row img {
+    padding-right: 0.5rem;
+}
 /* card classi end */
+
 /* card f.a.q. start */
 .card_faq_header {
     background-color: aliceblue;
@@ -215,6 +205,10 @@
     border-radius: 5px;
 }
 
+.card_todo_container input {
+   margin-right: 0.5rem;
+}
+
 .todo_second {
     border-top: 1px solid lightgrey ;
     border-bottom: 1px solid lightgrey ;
@@ -223,7 +217,6 @@
 
 /* card todo end */
     
-
 @media screen and (min-width: 991px) {
 
     .icon_hid i {
@@ -273,6 +266,4 @@
         display: block;
     }
     /* Banner blue end */
-    
-    
 }
